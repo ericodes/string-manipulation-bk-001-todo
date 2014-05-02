@@ -7,7 +7,8 @@ describe 'decoder' do
     # Question 1
 
     it 'decode the encoded string' do
-      expect(encode("my silly string")).to eq(decode("my silly string"))
+      encoded_value = encode("my silly string")
+      expect(decode(encoded_value)).to eq("my silly string")
     end
 
   end
