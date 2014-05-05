@@ -1,1 +1,3 @@
-# Write your code here.
+def encode string
+  encoded_string = string.reverse!
+end
