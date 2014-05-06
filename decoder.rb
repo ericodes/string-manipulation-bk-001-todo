@@ -1,4 +1,5 @@
-# your code goes here
+require "base64"
+
 def decode string
-  decoded_string = string.reverse!
+  decoded_string = Base64.decode64(string)
 end
